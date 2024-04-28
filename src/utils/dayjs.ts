@@ -1,5 +1,6 @@
-import dayjs from "dayjs";
 import "dayjs/locale/zh-cn";
+import "dayjs/locale/en";
+import dayjs from "dayjs";
 import duration from "dayjs/plugin/duration";
 import isToday from "dayjs/plugin/isToday";
 import isLeapYear from "dayjs/plugin/isLeapYear";

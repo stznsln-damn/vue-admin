@@ -3,6 +3,10 @@ import { PageEnum } from "~/enums/page";
 import useUserStore from "~/store/modules/user";
 import nProgress from "nprogress";
 
+nProgress.configure({
+  showSpinner: false,
+});
+
 export function setupRouterGuard(router: Router) {
   createAuthGuard(router);
   createProgressGuard(router);

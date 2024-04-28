@@ -4,15 +4,18 @@ import plugins from "./build/plugins";
 import { resolvePath } from "./build/utils";
 
 // https://vitejs.dev/config/
-export default defineConfig({
-  server,
-  plugins,
-  resolve: {
-    alias: {
-      "~": resolvePath("src"),
+export default defineConfig((config) => {
+  return {
+    server,
+    plugins,
+    resolve: {
+      alias: {
+        "~": resolvePath("src"),
+      },
     },
-  },
-  define: {
-    __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: false,
-  },
+    define: {
+      __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: false,
+      VITE_APP_NAME: JSON.stringify("你好啊"),
+    },
+  };
 });
