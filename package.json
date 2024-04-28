@@ -1,0 +1,42 @@
+{
+  "name": "vue-admin",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@antv/g2": "^5.1.19",
+    "@vueuse/core": "^10.9.0",
+    "ant-design-vue": "^4.2.1",
+    "axios": "^1.6.8",
+    "dayjs": "^1.11.10",
+    "lodash-es": "^4.17.21",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-i18n": "10.0.0-alpha.3",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@intlify/unplugin-vue-i18n": "^4.0.0",
+    "@types/lodash": "^4.17.0",
+    "@types/node": "^20.12.7",
+    "@types/nprogress": "^0.2.3",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "install": "^0.13.0",
+    "less": "^4.2.0",
+    "pnpm": "^9.0.6",
+    "prettier": "^3.2.5",
+    "typescript": "^5.2.2",
+    "unocss": "^0.59.4",
+    "unplugin-auto-import": "^0.17.5",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
