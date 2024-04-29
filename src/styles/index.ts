@@ -7,4 +7,3 @@ import "./global.less";
 import "./animation/rotate.less";
 
 import "./transition/fade.less";
-import "./transition/fold.less";

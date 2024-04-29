@@ -19,7 +19,7 @@ module.exports = {
   ],
   rules: {
     "no-undef": "off", // 使用ts检测
-    "no-unused-vars": "warn",
+    "no-unused-vars": "off",
     "no-await-in-loop": "error",
     "no-constructor-return": "error",
     "no-debugger": "warn",
