@@ -1,6 +1,6 @@
 import dayjs from "~/utils/dayjs";
 import { useStorageLocal } from "./useStorageLocal";
-import { Cache } from "~/enums/cache";
+import { CacheEnum } from "~/enums/cacheEnum";
 import zhCN from "ant-design-vue/locale/zh_CN";
 import enUS from "ant-design-vue/locale/en_US";
 
@@ -10,7 +10,7 @@ const antLocaleMap = {
 };
 
 export function useLocale() {
-  const locale = useStorageLocal(Cache.LOCALE_KEY, navigator.language);
+  const locale = useStorageLocal(CacheEnum.LOCALE_KEY, navigator.language);
 
   function getAntLocale() {
     return antLocaleMap[locale.value];

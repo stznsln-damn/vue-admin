@@ -4,7 +4,7 @@ import VueJsx from "@vitejs/plugin-vue-jsx";
 import Unocss from "unocss/vite";
 import AutoImport from "unplugin-auto-import/vite";
 import I18n from "@intlify/unplugin-vue-i18n/vite";
-import { resolvePath } from "./utils";
+import { resolvePath } from "./util";
 
 const plugins: PluginOption[] = [
   VueJsx(),

@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import server from "./build/server";
 import plugins from "./build/plugins";
-import { resolvePath } from "./build/utils";
+import { resolvePath } from "./build/util";
 
 // https://vitejs.dev/config/
 export default defineConfig((config) => {
